@@ -2,37 +2,91 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Profile-pic {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.Splash-page {
+  background-color: rgb(7, 23, 46);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
-.App-link {
-  color: #61dafb;
+.Colorful-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(217deg, rgb(140, 100, 220), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgb(73, 168, 197), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgb(225, 125, 75), rgba(0,0,255,0) 70.71%);
+  border-radius: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.About-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(215deg, rgb(241, 91, 255), rgb(9, 46, 97) 80%);
+  margin: 30px;
+  height: 70vh;
+  width: 70vw;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.About-me-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+  text-align: left;
+  padding: 5%;
+}
+
+.About-me-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.Divider {
+  height: 1px;
+  width: 30%;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.Card-title {
+  position: absolute;
+  top: -50px;
+  left: 18%;
+}
+
+.Additional-info {
+  font-size: 80%;
+}
+
+h1 {
+  font-size: calc(110px + 1vw);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  margin: 10px 0px;
+  font-size: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
 }
