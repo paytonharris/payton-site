@@ -41,13 +41,6 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="splash-page background-basic">
-        <div className="about-me">
-          <h1>
-            More details
-          </h1>
-        </div>
-      </div>
     </div>
   );
 }
