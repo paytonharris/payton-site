@@ -1,16 +1,14 @@
-.App {
+.app {
   text-align: center;
 }
 
-.Profile-pic {
-  max-height: 100%;
-  max-width: 100%;
+.profile-pic {
   border-radius: 20px;
-  object-fit: cover;
+  object-fit: fill;
+  max-width: 100%;
 }
 
-.Splash-page {
-  background-color: rgb(7, 23, 46);
+.splash-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,7 +18,19 @@
   color: rgb(255, 255, 255);
 }
 
-.Colorful-border {
+.background-highlight-down {
+  background: linear-gradient(315deg, rgb(28, 60, 104), rgb(7, 23, 46) 70.71%);
+}
+
+.background-basic {
+  background-color: rgb(212, 159, 205);
+}
+
+.background-highlight-up {
+  background: linear-gradient(45deg, rgb(113, 163, 233), rgb(7, 23, 46) 70.71%);
+}
+
+.colorful-border {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +41,14 @@
   border-radius: 100px;
 }
 
-.About-me {
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-me-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -42,9 +59,10 @@
   width: 70vw;
   border-radius: 40px;
   overflow: hidden;
+  min-width: 993px;
 }
 
-.About-me-left {
+.about-me-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -52,35 +70,61 @@
   width: 40%;
   text-align: left;
   padding: 5%;
+  flex: 1;
 }
 
-.About-me-right {
+.about-me-right {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 50%;
+  height: 100%
 }
 
-.Divider {
+.about-me-main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  flex: 1;
+}
+
+.divider {
   height: 1px;
   width: 30%;
   background-color: white;
   margin: 10px 0px;
 }
 
-.Card-title {
-  position: absolute;
-  top: -50px;
-  left: 18%;
+.card-title {
+  margin-bottom: -70px;
+  width: 100%;
+  text-align: left;
+  padding-left: 8%;
+  z-index: 10;
 }
 
-.Additional-info {
+.additional-info {
   font-size: 80%;
 }
 
+.link-grid {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.link-icon {
+  margin-top: 30px;
+  padding: 10px;
+}
+
 h1 {
-  font-size: calc(110px + 1vw);
+  font-size: 110px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -89,4 +133,14 @@ p {
   font-size: 100%;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
+}
+
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
