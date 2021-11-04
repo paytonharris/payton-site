@@ -66,7 +66,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(215deg, rgb(241, 91, 255), rgb(9, 46, 97) 80%);
+  background: linear-gradient(215deg, rgb(161, 6, 115), rgb(8, 38, 80) 100%);
   margin: 30px;
   height: 70vh;
   width: 70vw;
@@ -151,7 +151,7 @@ p {
     margin: 0px;
     height: auto;
     margin-bottom: 10px;
-    background: linear-gradient(215deg, rgb(144, 60, 184), rgb(9, 46, 97) 50%);
+    background: linear-gradient(215deg, rgb(104, 8, 91), rgb(8, 38, 80) 50%);
   }
 
   .about-me-left {
