@@ -17,8 +17,9 @@ function App() {
                 <p>Hello,</p>
                 <p>I'm Payton, a Software Engineer</p>
                 <div className="divider" />
-                <p className="additional-info">React Native; iOS Swift; Musician</p>
-                <p className="additional-info">App developer who loves front-end polish, with 4 years experience across app development and full stack web development.</p>
+                <p className="additional-info">React; iOS Swift; Musician</p>
+                <p className="additional-info">Full-stack developer who loves front-end polish, with 4 years experience across app and web development.</p>
+                <p className="additional-info">View my projects on <a href="https://github.com/paytonharris">GitHub</a>.</p>
               </div>
               <div className="link-grid">
                 <a href="https://github.com/paytonharris" className="link-icon">
